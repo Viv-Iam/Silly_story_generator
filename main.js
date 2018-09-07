@@ -28,7 +28,7 @@ function randomValueFromArray(array){
   
     if(document.getElementById("uk").checked) {
       var weight = Math.round(300);
-      var temperature =  Math.round(94);
+      var temperature =  Math.round((94-32)*(5/9));
   
     }
   
