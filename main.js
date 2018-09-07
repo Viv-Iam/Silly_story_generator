@@ -27,8 +27,8 @@ function randomValueFromArray(array){
     }
   
     if(document.getElementById("uk").checked) {
-      var weight = Math.round(300);
-      var temperature =  Math.round((94-32)*(5/9));
+      var weight = Math.round(300/14) + ' stone';
+      var temperature =  Math.round((94-32)*(5/9)) + ' centigrade';
   
     }
   
